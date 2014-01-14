@@ -1,0 +1,23 @@
+{
+  "name": "LearningNodejs",
+  "version": "0.0.0",
+  "description": "First Node App",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/LewisRitz/LearningNodejs.git"
+  },
+  "author": "Lewis Ritz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LewisRitz/LearningNodejs/issues"
+  },
+  "homepage": "https://github.com/LewisRitz/LearningNodejs",
+  "dependencies": {
+    "logfmt": "~0.18.1",
+    "express": "~3.4.8"
+  }
+}
