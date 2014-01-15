@@ -212,7 +212,7 @@
 			  		if (divSix) { Parent.appendChild(divSix); }
 			  		if (divSeven) { Parent.appendChild(divSeven); }
 
-			  		if (MakeInvisible) { divSix.style.display = "none"; }
+			  		if (MakeInvisible) { divSix.children[0].style.display = "none"; }
 
 
 		  		}
