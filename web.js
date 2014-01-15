@@ -6,7 +6,7 @@ var app = express();
 app.use(logfmt.requestLogger());
 
 app.get('/', function(req, res) {
-	res.send('Hello World!');
+	res.send('<h1 style=\"text-align:center\">Hello World!</h1>');
 });
 
 var port = process.env.PORT || 5000;
