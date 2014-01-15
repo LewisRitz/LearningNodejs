@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Dorneyville Beverage</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="Lewis Ritz" content="">
+
+	<!-- CSS
+  ================================================== -->
+  	<!-- Fortorama --><!--
+  	<link  href="http://fotorama.s3.amazonaws.com/4.4.8/fotorama.css" rel="stylesheet">  -->
+
+  	<!-- Page Styles -->
+	<link href="css/edit.css" rel="stylesheet" type="text/css">
+
+  	<!-- PageResizing -->
+  	<!-- 
+  	<link href="css/skeleton.css" rel="stylesheet" type="text/css">
+	-->
+
+	<!-- Skeleton -->
+	<!-- <link rel="stylesheet" href="/css/skeleton.css"> -->
+
+
+	<!-- JavaScript
+  ================================================== -->	
+  	<!-- JQuery --><!--
+  	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script> -->
+
+  	<script src="js/javascript.js" type="text/javascript"></script>
+  	<script src="dbStuff/dataArrays.php" type="text/javascript"></script>
+
+  	<!-- Fortorama -->
+  	<!-- <script src="http://fotorama.s3.amazonaws.com/4.4.8/fotorama.js"></script> -->
+  	<script type="text/javascript">
+	  	function makeImageHeightEqualWidth(){
+	  		var wideness = document.getElementById('testImage').clientWidth;
+	  		var ContainerElementz = document.getElementsByClassName('SubContent');
+	  		for(var i =0;i<ContainerElementz.length; i++){
+	  			ContainerElementz[i].style.height = wideness+"px"; 
+	  		}
+	  	}
+	  	function makeImageHeightEqualWidths(){
+	  		var wideness = document.getElementById('testImage').clientWidth;
+	  		var ContainerElementz = document.getElementsByClassName('SubContent');
+	  		for(var i =0;i<ContainerElementz.length; i++){
+	  			ContainerElementz[i].style.height = wideness+"px"; 
+	  		}
+	  	}
+  	</script>
+
+  	<!-- NavBar -->
+  	<!--
+  	<script type="text/javascript" src="../js/scriptLonerganPump.js"></script>
+	-->
+	<!--
+
+	<!-- Carousel -->
+	<!-- <script type="text/javascript" src="carousel.js"></script> -->
+
+	<!-- RollOver Menu -->
+	<!-- <script type="text/javascript" src="rollover.js"></script> -->
+
+	<!-- Page Functions -->
+	<!-- <script type="text/javascript" src="js/functions.js"></script> -->
+	
+
+	<!-- Favicons
+  ================================================== -->
+	<link rel="icon" type="image/png" href="images/LonerganPump/LPSfavicon.ico">
+
+</head>
+<!-- <body style="margin-left:0px; margin-right:0px; background-color:#000;"> -->
+
+<body class="myStyle">
+	<!-- Primary Page Layout
+  ================================================== -->
+  	<div class="header">
+  		<div class="Container">
+  			<div class="bufferLeft"></div>
+  			<div class="first">
+  				<a href="#News">
+	  				<div class="NewsHeader">
+	  					<h3>News</h3>
+	  				</div>
+  				</a>
+  				<a href="#Specials">
+	  				<div class="SpecialsHeader">
+	  					<h3>Specials</h3>
+	  				</div>
+  				</a>
+  				<a href="#List">
+	  				<div class="ListHeader">
+	  					<h3>List</h3>
+	  				</div>
+  				</a>
+  				<a href="#New">
+	  				<div class="NewHeader">
+	  					<h3>New</h3>
+	  				</div>
+  				</a>
+  			</div>
+  			<a href="#Home">
+	  			<div class="second">
+	  				<h1>Dorneyville Beverage</h1>
+	  			</div>
+  			</a>
+  			<div class="third">
+  				<a href="#Info">
+	  				<div class="Info">
+	  					<h3>Info</h3>
+	  				</div>
+  				</a>
+  				<a href="#Contact">
+	  				<div class="Contact">
+	  					<h3>Contact</h3>
+	  				</div>
+  				</a>
+  				<a href="#Facts">
+	  				<div class="Facts">
+	  					<h3>Facts</h3>
+	  				</div>
+  				</a>
+  				<a href="#Links">
+	  				<div class="Links">
+	  					<h3>Links</h3>
+	  				</div>
+  				</a>
+  			</div>
+  			<div class="bufferLeft"></div>
+  		</div>
+  	</div>
+  	<div class="navLink">
+  		<a name="Home"></a>
+  	</div>
+  	<div class="Content">
+	  	<div class="Navigation">
+
+	  	</div>
+	  	<div class="TopBuffer"></div>
+	  		<div class="WelcomeMessage">
+	  			<div class="logo">
+	  				<img src="images/logo.jpg">
+	  				<h3 class="editButton">Edit Logo Image</h3>
+	  			</div>
+	  			<h1>We invite you to come in to our Beer Distributor and "talk beer." We can assist you in finding the right beers for your taste. Our mission states. "If we don't have what you want, let us know and we will do our best to bring it in for you". Dorneyville Beverage is the beer resource for consumers.</h1>
+	  			<h3 class="editButton">Edit Welcome Message</h3>
+	  		</div>
+	  		<a name="News"></a>
+	  	<div class="BottomBuffer"></div>
+
+	  	<div class="News">
+	  		<div class="Bar"></div>
+	  		<h1>News<div><h3 class="editButton">Edit Title</h3></div></h1>
+
+	  		<div class="navLink">
+		  		<a name="Specials"></a>
+		  		<div><h3 class="editButton">Edit Content</h3></div>
+		  	</div>
+		  	<div class="showMoreButton">
+		  		<p onclick="addNodesButton(this)">Show More News<div><h3 class="editButton">Edit Content Name</h3></div></p>
+		  	</div>
+	  	</div>
+	  	<div class="Specials">
+	  		<div class="Bar"></div>
+	  		<h1>Beer Specials</h1>
+	  		
+		  	<div class="navLink">
+		  		<a name="List"></a>
+		  		<div><h3 class="editButton">Edit Content</h3></div>
+		  	</div>
+		  	<div class="showMoreButton">
+		  		<p onclick="addNodesButton(this)">Show More Specials<div><h3 class="editButton">Edit Content Name</h3></div></p>
+		  	</div>
+	  	</div>
+
+
+	  	<div class="List">
+	  		<div class="Bar"></div>
+	  		<h1>Beer List<div><h3 class="editButton">Edit Title</h3></div></h1>
+	  		
+		  	<div class="navLink">
+		  		<a name="New" style="margin-top:100px;"></a>
+		  		<div><h3 class="editButton">Edit Content</h3></div>
+		  	</div>
+		  	<div class="showMoreButton">
+		  		<p onclick="addNodesButton(this)">Show More Beers<div><h3 class="editButton">Edit Content Name</h3></div></p>
+		  	</div>
+	  	</div>
+	  	<div class="New">
+	  		<div class="Bar"></div>
+	  		<h1>New Beers Recently Added To Inventory<div><h3 class="editButton">Edit Title</h3></div></h1>
+	  		
+		  	<div class="navLink">
+		  		<a name="Info"></a>
+		  		<div><h3 class="editButton">Edit Content</h3></div>
+		  	</div>
+
+		  	<div class="showMoreButton">
+		  		<p>show more beers<div><h3 class="editButton">Edit Content Name</h3></div></p>
+		  	</div>
+		  	<!--
+		  	<div class="showLessButton">
+		  		<p>show less beers</p>
+		  	<div>
+		  	-->
+	  	</div>
+
+	  	<!--
+	  	<div class="Beer Selections">
+	  		<h1 style="text-align:center;">Beer Selection</h1>
+	  	</div>
+	 	-->
+	  	<div class="BeerInfo">
+	  		<div class="Bar"></div>
+	  		<h1>Beer Info<div><h3 class="editButton">Edit Title</h3></div></h1>
+	  		<div class="CenteringContentZ">
+		  		<div class="SubContent">
+		  			<div class="info">
+			  			<div class="StoryBox">
+			  				<img id="testImage" class="ImageInStoryBox" src="images/info/calories.png">
+			  			</div>
+			  			<div class="StoryBox">
+			  				<img class="ImageInStoryBox" src="images/info/carbs.jpg">
+			  			</div>
+			  			<div class="StoryBox">
+			  				<img class="ImageInStoryBox" src="images/info/abv.png">
+			  			</div>
+			  		</div>
+		  		</div>
+		  	</div>
+		  	<div class="CenteringContentCap">
+		  		<div class="CapContent">
+		  			<div class="caption">
+		  				<h3>Calories</h3>
+		  			</div>
+		  			<div class="caption">
+		  				<h3>Carbs</h3>
+		  			</div>
+		  			<div class="caption">
+		  				<h3>Alcohol By Volume</h3>
+		  			</div>
+		  		</div>
+		  	</div>
+		  	<div class="navLink">
+		  		<a name="Contact"></a>
+		  		<div><h3 class="editButton">Edit Content</h3></div>
+		  	</div>
+		  	<div class="showMoreButton">
+		  		<p><div><h3 class="editButton">Edit Content Name</h3></div></p>
+		  	</div>
+	  	</div>
+
+	  	<div class="Contact" style="margin-bottom:50px; width:100%;">
+	  		<div class="Bar"></div>
+	  		<h1>Contact Us<div><h3 class="editButton">Edit Title</h3></div></h1>
+	  		<div class="CenteringContentZ">
+		  		<div class="SubContent">
+		  			<div class="StoryBoxContact">
+		  				<h1>Carol & Gary<br /><br />3339 Hamilton Blvd.<br />Allentown, PA 18103<br /><br />Phone number: (610) 841-3888<br />Fax: (610) 841-3889<br /><br />Email - dorneyvillebeverage@rcn.com
+		  				</h1>
+		  			</div>
+		  			<div class="StoryBoxContact">
+		  				<h2>Winter Hours:<br/>Monday-Friday-10:00 AM to 8:00 PM<br/>Saturday - 10:00 AM to 8:00 PM<br/>Sunday - 11:00 PM to 5:00 PM<br/><br/>Summer Hours:<br/>Monday-Friday-10:00 AM to 9:00 PM<br/>Saturday - 9:00 AM to 9:00 PM<br/>Sunday - 11:00 AM to 5:00 PM
+		  				</h2>
+		  			</div>
+		  		</div>
+		  	</div>
+		  	<div class="navLink">
+		  		<a name="Facts"></a>
+		  		<div><h3 class="editButton">Edit Content</h3></div>
+		  	</div>
+		  	<div class="showMoreButton">
+		  		<p><div><h3 class="editButton">Edit Content Name</h3></div></p>
+		  	</div>
+	  	</div>
+	  	<div class="Facts">
+	  		<div class="Bar"></div>
+	  		<h1 style="text-align:center;">Beer Facts and Information<div><h3 class="editButton">Edit Title</h3></div></h1>
+	  		<div class="CenteringContentZ">
+		  		<div class="SubContent">
+		  			<div class="StoryBox">
+		  				<img class="ImageInStoryBox" src="images/facts/ale.jpg">
+		  			</div>
+		  			<div class="StoryBox">
+		  				<img class="ImageInStoryBox" src="images/facts/lager.jpg">
+		  			</div>
+		  			<div class="StoryBox">
+		  				<img class="ImageInStoryBox" src="images/facts/mixedBeer.jpg">
+		  			</div>
+		  			<div class="StoryBox">
+		  				<img class="ImageInStoryBox" src="images/facts/ingredients.JPG">
+		  			</div>
+		  		</div>
+		  	</div>
+		  	<div class="navLink">
+		  		<a name="Links" style="margin-top:100px;"></a>
+		  		<div><h3 class="editButton">Edit Content</h3></div>
+		  	</div>
+		  	<div class="showMoreButton">
+		  		<p><div><h3 class="editButton">Edit Content Name</h3></div></p>
+		  	</div>
+	  	</div>
+	  	<div class="Links">
+	  		<div class="Bar"></div>
+	  		<h1>Interesting Beer Links<div><h3 class="editButton">Edit Title</h3></div></h1>
+	  		<div class="CenteringContentZ">
+		  		<div class="SubContent">
+		  			<div class="StoryBox">
+		  				<img class="ImageInStoryBox" src="images/links/realbeer.jpeg">
+		  			</div>
+		  			<div class="StoryBox">
+		  				<img class="ImageInStoryBox" src="images/links/Spencer'sPage.gif">
+		  			</div>
+		  			<div class="StoryBox">
+		  				<img class="ImageInStoryBox" src="images/links/TheHopPage.gif">
+		  			</div>
+		  			<div class="StoryBox">
+		  				<img class="ImageInStoryBox" src="images/links/medievalBrewing.gif">
+		  			</div>
+		  		</div>
+		  		<div><h3 class="editButton">Edit Content</h3></div>
+		  	</div>
+		  	<div class="showMoreButton">
+		  		<p>Show More Links<div><h3 class="editButton">Edit Content Name</h3></div></p>
+		  	</div>
+	  	</div>
+	</div>
+	<script type="text/javascript">
+		initAll();
+		//window.onload(makeImageHeightEqualWidth());
+
+		window.addEventListener('resize', makeImageHeightEqualWidth);
+		makeImageHeightEqualWidth();
+			
+	</script>
+</body>
+</html>
