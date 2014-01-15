@@ -2,7 +2,7 @@
   "name": "LearningNodejs",
   "version": "0.0.0",
   "description": "First Node App",
-  "main": "web.js",
+  "main": "my_static_file_server.js",
   "scripts": {
     "test": "test"
   },
