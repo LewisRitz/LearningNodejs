@@ -40,12 +40,13 @@
 /* #Base 1680 Grid
 ================================================== */
     
-
+    //.header { padding: 0px; }
 /* #Base 1440 Grid
 ================================================== */
     @media only screen and (min-width: 1440px) and (max-width: 1679px) {
         .header .Container .second { width: 26%; }
         .header .Container .third { width: 28%; }
+
     }
 
 /* #Base 1200 Grid
@@ -53,9 +54,10 @@
 
     @media only screen and (min-width: 1200px) and (max-width: 1439px) {
         .header .Container .first a { margin-left: 10px; }
-        .header .Container .third a, h3 { margin-left: 10px; }
-        .header .Container .second { width: 26%; }
+        .header .Container .third a, h3 { margin: 0px; margin-left: 5px !important; }
+        .header .Container .second { width: 34%; }
         .header .Container .third { width: 28%; }
+        .header { padding-top: 20px; padding-bottom: 5px; }
     }   
 /* #Base 1024 Grid
 ================================================== */
@@ -63,16 +65,23 @@
         .header .Container .first a { margin-left: 5px; }
         .header .Container .third a, h3 { margin-left: 5px; }
         .header .Container .second { width: 32% !important; }
-        .header .Container .third { width: 28%; }    
+        .header .Container .third { width: 28%; }
+        .header { padding: 0px; padding-top: 10px; }    
     }
 /* #Base 960 Grid
 ================================================== */
 	
 	@media only screen and (min-width: 960px) and (max-width: 1199px) {
-         .header .Container .first a { margin-left: 5px; }
-         h3, h1 { margin: 0px !important; }
-         .header .Container .third a, h3 { margin-left: 5px !important; }
-         .header .Container .second { width: 26%; }
+        h3 { margin: 0px !important; }
+
+        .header { padding-bottom: 15px; padding-top: 20px; }
+        .header .Container .bufferLeft { width: 3%;}
+        .header .Container .first { width: 29%; }
+        .header .Container .first a { margin-left: 5px; }
+        .header .Container .second { width: 32%; }
+        .header .Container .third { width: 29%; }
+        .header .Container .third a, h3 { margin-left: 5px !important; }
+
     }
 
 /* #Tablet (Portrait)
@@ -81,7 +90,16 @@
     /* Note: Design for a width of 768px */
 
     @media only screen and (min-width: 768px) and (max-width: 959px) {
-        
+        h3 { margin: 0px !important; }
+
+        .header { padding-bottom: 15px; padding-top: 20px; }
+        .header .Container .bufferLeft { width: 3%;}
+        .header .Container .first { width: 29%; }
+        .header .Container .first a { margin-left: 5px; }
+        .header .Container .second { width: 32%; }
+        .header .Container .second h1 { font-size: 26px; }
+        .header .Container .third { width: 29%; }
+        .header .Container .third a, h3 { margin-left: 5px !important; font-size: 16px !important; }
 
     }
 
@@ -109,7 +127,16 @@
     /* Note: Design for a width of 480px */
 
     @media only screen and (min-width: 480px) and (max-width: 767px) {
-    
+        h3 { margin: 0px !important; }
+
+        .header { padding-bottom: 15px; padding-top: 20px; }
+        .header .Container .bufferLeft { width: 3%;}
+        .header .Container .first { width: 29%; }
+        .header .Container .first a { margin-left: 5px; }
+        .header .Container .second { width: 32%; }
+        .header .Container .second h1 { font-size: 26px; }
+        .header .Container .third { width: 29%; }
+        .header .Container .third a, h3 { margin-left: 5px !important; font-size: 16px !important; }
 	
     }
 
