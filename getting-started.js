@@ -7,9 +7,12 @@ db.on('error', console.error.bind(console, 'connection error:'));
 db.once('open', function callback(){
 		//yay!
 		//console.log("IT WORKED!");
+
+		
 		var kittySchema = mongoose.Schema({
 			name: String
 		});
+		/*
 		kittySchema.methods.speak = function() {
 			var greeting = this.name
 				? "Meow name is " + this.name
@@ -18,7 +21,7 @@ db.once('open', function callback(){
 		}
 
 		var Kitten = mongoose.model('Kitten', kittySchema);
-
+		/**
 		var silence = new Kitten({ name: 'Silence'});
 		//console.log(silence.name);
 		var fluffy = new Kitten({ name: 'fluffy' });
@@ -33,7 +36,8 @@ db.once('open', function callback(){
 			silence.speak();
 		});
 
-		
+		*/
+		var Kitten = mongoose.model('Kitten', kittySchema);
 		Kitten.find(function (err, kittens){
 			if (err) { console.log(err); }//TODO handle err
 			console.log(kittens);
